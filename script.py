@@ -185,6 +185,7 @@ plt.suptitle(clf_name, fontsize=16)
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.savefig(f'conf_matrix.png', bbox_inches='tight', dpi=300)
 
+
 ## Delete old image files
 for path in confusion_matrix_paths:
     os.remove(path)
